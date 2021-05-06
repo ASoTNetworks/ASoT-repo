@@ -4,10 +4,10 @@
 
 # To build
 # mkdir ~/Docker/zoneminder
+# cp build.sh ~/Docker/zoneminder/
 # docker run --rm --name=zoneminder-build -v ~/Docker/zoneminder:/build debian-buster /build/build.sh
 
 # Interactive shell
-# mkdir ~/Docker/zoneminder
 # docker run -it --name=zoneminder-build -v ~/Docker/zoneminder:/build debian-buster /bin/bash
 
 set -x
