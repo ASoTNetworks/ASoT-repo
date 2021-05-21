@@ -49,7 +49,7 @@ then
 	mkdir -p /build/zoneminder-$zm_version
 fi
 
-apt -y install sudo dh-systemd python3-sphinx apache2-dev dh-linktree cmake libx264-dev libmp4v2-dev mp4v2-utils libavdevice-dev libavcodec-dev libavformat-dev libavutil-dev libswresample-dev libavresample-dev libswscale-dev ffmpeg net-tools libbz2-dev libgcrypt20-dev libcurl4-gnutls-dev  libgnutls28-dev libjpeg-dev libjpeg62-turbo-dev default-libmysqlclient-dev libmariadb-dev-compat libpcre3-dev libpolkit-gobject-1-dev libv4l-dev libvlc-dev libdate-manip-perl libdbd-mysql-perl libphp-serialization-perl libsys-mmap-perl libssl-dev libcrypt-eksblowfish-perl libdata-entropy-perl libjs-jquery libjs-mootools devscripts htop build-essential
+apt -y install sudo dh-systemd python3-sphinx apache2-dev dh-linktree cmake libx264-dev sphinx-doc libturbojpeg0-dev libvncserver-dev libjwt-gnutls-dev libavdevice-dev libavcodec-dev libavformat-dev libavutil-dev libswresample-dev libavresample-dev libswscale-dev ffmpeg net-tools libbz2-dev libgcrypt20-dev libcurl4-gnutls-dev  libgnutls28-dev libjpeg-dev libjpeg62-turbo-dev default-libmysqlclient-dev libmariadb-dev-compat libpcre3-dev libpolkit-gobject-1-dev libv4l-dev libvlc-dev libdate-manip-perl libdbd-mysql-perl libphp-serialization-perl libsys-mmap-perl libssl-dev libcrypt-eksblowfish-perl libdata-entropy-perl libjs-jquery libjs-mootools devscripts htop build-essential
 
 echo "[user]
 	email = repo-admin@aseriesoftubez.com
